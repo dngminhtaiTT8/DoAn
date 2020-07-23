@@ -1,0 +1,527 @@
+*
+{
+    box-sizing: border-box;
+}
+head{
+    display: none;
+}
+body{
+    
+    font-family: "Rotobo",sans-serif;
+    font-size: 15px;
+    line-height:  1.5;
+    height: 100%;
+}
+
+/**********************Header****************/
+.hero{
+background: url("https://xvelopers.com/html/knowledge/Demo1/assets/images/bg1.png");
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.navbar{
+padding: 30px 0;
+margin-bottom: 20px;
+}
+.navbar-toggle{
+    background: transparent none repeat scroll 0 0;
+    border:  1px solid transparent;
+    border-radius: 4px;
+    color: #ffffff;
+    float: right;
+    font-size: 31px;
+    margin-right: 15px;
+    margin-top: -15px;
+    position: relative;
+}
+.masthead .col-md-8{
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 15px;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight:  500;
+    padding: 15px 20px 15px 15px;
+}
+.navbar .collapse .btn-success{
+    margin: 5px 0 0;
+    padding: 12px 27px;
+    background: #7dc855;
+}
+.masthead{
+    padding: 100px 0 80px 0;
+    text-align: center;
+}
+.masthead h1{
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    margin: 20px 0px 10px;
+}
+.masthead p{ 
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    text-align:  center;
+    padding: 30px 0px 15px;
+}
+.masthead form{
+    position: relative;
+    margin-top: 10px;
+}
+.masthead .col-md-8 .search{
+    width: 100%;
+    background: #ffffff;
+    font-size:  18px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 0px 30px;
+    border:  none; 
+    margin-bottom:  20px;
+    height: 60px;
+    font-family: "Roboto", sans-serif;
+}
+.masthead form button{
+    position: absolute;
+    right:  25px;
+    top: 25px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: #86939e;
+}
+.masthead .btn-hero{
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+.icon-git{
+    background: url("https://xvelopers.com/html/knowledge/Demo1/assets/images/icon/icon-git.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align:  middle;
+    padding-right: 30px;
+}
+.icon-right{
+    background: url("https://xvelopers.com/html/knowledge/Demo1/assets/images/icon/icon-right.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    vertical-align:  middle;
+    margin: 0px 0px 0px 40px;
+}
+@media (max-width: 576px){
+    .navbar-expand-sm>.container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }    
+}
+.navbar .brand{
+padding-top:  11px;
+}
+/**************Features*********/
+.features{
+    padding: 100px 0px;
+    position: relative;
+}
+.features::after{
+    content: "";
+    display: block;
+    height: 1px;
+    margin-top: 1px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: url("https://xvelopers.com/html/knowledge/Demo1/assets/images/icon/icon-dash.png");
+    background-repeat: repeat-x;
+}
+.bgc-light-gray{
+    background-color: #f9f9f9;
+}
+.features .icon{
+    display: inline-block;
+    font-size: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.features h3{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #43484d;
+}
+.features p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    color: #86939e;
+    margin: 0px 0px 10px;
+}
+/*************Topics******************/
+.topics{
+    padding: 50px 0;
+}
+.topics .topics-btn{
+    margin: 30px auto;
+   
+}
+.topics header{
+    border-bottom:  1px solid #eee;
+    position: relative;
+}
+.topics header h2{
+    font-size: 38px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    color: #43484d;
+}
+.topics header p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    color: #5e6977;
+}
+
+.icon-pages{
+    background: url("https://xvelopers.com/html/knowledge/Demo1/assets/images/icon/icon-pages.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 48px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.topics-list{
+    padding: 20px;
+}
+.topics h3 a{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Rotobo", sans-serif;
+    color: #43484d;
+    text-decoration: none;
+}
+.topics-list li:before {
+    font-family: FontAwesome;
+    content: "";
+    color: #b5bfc7;
+    font-size: 18px;
+
+}
+a{
+    outline: none;
+}
+.topics-list .badge{
+    background-color: #7dc855;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    min-width: 10px;
+    text-align: center;
+    vertical-align:  middle;
+    white-space: nowrap;
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    padding: 0;
+}
+.widget{
+    border: 3px solid #f7f7f7;
+    border-radius: 5px;
+    padding: 25px;
+}
+.widget-support-forum{
+    margin-bottom: 24px;
+    margin-top: 50px;
+}
+
+.widget .icon{
+    float: right;
+    padding-right: 20px;
+}
+.topics .widget h4{
+    font-size: 18px;
+    font-weight: 400;
+    color: #43484d;
+    line-height: 25px;
+    margin: 10px 0px;
+}
+.icon-forum{
+    background: url("https://xvelopers.com/html/knowledge/Demo1/assets/images/icon/icon-forum.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 64px;
+    height: 60px;
+}
+
+.widget-support-forum p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #86939e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+}
+p{
+    line-height: 24px;
+    margin:  0px 10px;
+}
+.btn-success{
+    background-color: #7dc855;
+    border: medium none;
+    border-radius: 5px;
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 13px 25px;
+}
+/*************list*****************/
+.pt-50{
+    padding-top: 50px;
+}
+.topics-list{
+    padding: 20px 0;
+}
+.topics-list h3 a{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Rotobo",sans-serif;
+    color: #43484d;
+    text-decoration: none;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+ul{
+    padding: 0;
+}
+.topics-list li{
+    list-style: none;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.topics-list li a{
+    padding-left: 15px;
+    color: #5e6977;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Rotobo",sans-serif;
+    text-decoration: none;
+    outline: none;
+}
+
+.topics .topics-btn .btn{
+    margin-top: 60px;
+    color: #358ed7;
+   margin-left: auto;
+}
+.btn-default{
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid #e1e8ee;
+    padding: 15px 30px;
+    width: 235.694px;
+    height: 58.8889px;
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+.topics .topics-btn span{
+    display: inline;
+    padding-left: 30px;
+}
+.icon-adn{
+    background: url("https://xvelopers.com/html/knowledge/Demo1/assets/images/icon/icon-adn.png");
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 24px;
+}
+/*****************Support Section******************/
+.section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.support-section{
+    background: url("https://xvelopers.com/html/knowledge/Demo1/assets/images/bg2.png") no-repeat center;
+    position: relative;
+}
+.support-section .divider{
+    border-top: 1px solid #eee;
+    position: relative;
+    margin-bottom: 120px;
+    width: 100%;
+}
+.support-section .divider .fa-life-ring{
+    position: absolute;
+    text-align: center;
+    margin-left: 562.5px;
+    margin-right: 562.5px;
+    display: inline-block; 
+}
+.support-section .divider i{
+    background: #7dc855;
+    border-radius: 50%;
+    color: #ffffff;
+    display: block;
+    font-size: 28px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0;
+    text-align: center;
+    width: 45px;
+    margin-top: -25px;
+}
+.text-center{
+    width: 100%;
+}
+.section-title {
+    display: inline-block;
+    font-size: 52px;
+    font-weight: 300;
+    color: #43484d;
+    margin: 20px 0px 10px;
+    width: 100%;
+    height: 56.889px;
+}
+.Section-subtitle {
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 32px;
+    color: #5e6977;
+    width: 55%;
+    margin: 20px auto 40px;
+}
+.support-section ul.members{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 1170px;
+}
+ul{
+    padding: 0;
+}
+.support-section ul.members li
+{
+    display: inline;
+    padding-right: 30px;
+}
+/**************Call to Action************/
+.section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.support-section{
+    background: url("https://xvelopers.com/html/knowledge/Demo1/assets/images/bg2.png")no-repeat center;
+    position: relative;
+}
+.call-to-action{
+    border: 4px solid #f7f7f7;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+}
+.icon-envelope{
+    background: url("https://xvelopers.com/html/knowledge/Demo1/assets/images/icon/icon-envelope.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+}
+.call-to-action h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: #43484d;
+    margin: 0 0 10px;
+}
+.call-to-action p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #86939e;
+}
+p{
+    line-height: 24px;
+}
+.call-to-action .btn-action{
+    margin-top: 20px;
+    float: right;
+    width: 164.736px;
+    height: 48.22px;
+}
+.btn-success{
+    background: #7dc855;
+    border: medium none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 13px 25px;
+}
+a{
+    text-decoration: none;
+    outline: 0 none;
+}
+/******************Footer**************/
+footer{
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    padding: 35px 0 20px;
+}
+
+a{
+    text-decoration: none;
+    outline: 0 none;
+}
+footer .footer-links{
+    padding-top: 5px;
+}
+
+ul{
+    padding: 0;
+}
+footer .footer-links a{
+    color: #5e6977;
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 30px;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    outline:  0 none;
+}
+footer .copyright{
+    color: #5e6977;
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 300;
+    float: right;
+}
+p{
+    line-height: 24px;
+    color: #5e6977;
+    font-weight: 300;
+}
+/*****************Mobile**************/
+@media only screen and (max-width: 768px){
+    [class*="col-"]{
+        width: 100%;
+    }
+}
